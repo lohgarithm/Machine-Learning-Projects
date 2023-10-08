@@ -114,3 +114,4 @@ def PCA(X, num_components):
     P = projection_matrix(principal_components)
     reconst = (P @ X_normalized.T).T + mean
     return reconst, mean, principal_vals, principal_components
+
