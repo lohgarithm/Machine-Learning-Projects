@@ -1,0 +1,6 @@
+# Before we begin, let's load the libraries.
+%pylab notebook
+import numpy as np
+import numpy.linalg as la
+from readonly.PageRankFunctions import *
+np.set_printoptions(suppress=True)
